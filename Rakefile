@@ -1,6 +1,11 @@
 # frozen_string_literal: true
 
+require 'sinatra/asset_pipeline/task'
 require 'rake/testtask'
+require './app'
+
+Sinatra::AssetPipeline::Task.define! App
+
 # require_relative 'config/database'
 
 # migrate = './tasks/db/migrate.rake'

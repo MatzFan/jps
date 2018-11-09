@@ -4,7 +4,8 @@ ruby '2.5.2'
 source 'https://rubygems.org'
 
 # gem 'bcrypt', '3.1.12'
-# gem 'haml', '5.0.4'
+gem 'bootstrap', '4.1.3'
+gem 'haml', '5.0.4'
 # gem 'mechanize', '2.7.6'
 # gem 'parallel', '1.12.1'
 # gem 'pony', '1.12'
@@ -13,6 +14,10 @@ gem 'rake', '12.3.1'
 # gem 'sequel', '5.14.0'
 # gem 'sequel_pg', '1.11.0', require: 'sequel' # faster C adapter
 gem 'sinatra', '2.0.3'
+
+# assets
+# gem 'sass', '3.7.2'
+gem 'sinatra-asset-pipeline', '2.2.0'
 
 group :test do
   gem 'capybara', '3.10.1'
